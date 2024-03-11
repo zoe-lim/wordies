@@ -8,7 +8,8 @@ export const COLORS = {
     background: "#daeae4",
     gray: "#BEC2C2",
     wheat: "#decaad",
-    lightblue: "#93c8cf"
+    lightblue: "#93c8cf",
+    blue: "#6092C0",
 }
 
 export const SIZES = {

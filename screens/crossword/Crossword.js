@@ -1,8 +1,9 @@
 // Crossword.js
 import React from 'react';
-import { StyleSheet, Text, View, SafeAreaView, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, SafeAreaView, ScrollView, ImageBackground } from 'react-native';
 import CrosswordGrid from '../../components/crossword/Grid';
 import crosswordData from '../../components/crossword/crosswordData';
+import { images } from '../../constants';
 
 const Crossword = ({ route, navigation }) => {
 	console.log(route);
@@ -24,17 +25,23 @@ const Crossword = ({ route, navigation }) => {
 
 	return (
         <SafeAreaView style={{flex:1}}>
-            <ScrollView
-                style={{
-                    flex:1,
-                    padding: 15,
-                    marginBottom: 20
-                }}
+            <ImageBackground
+                source={images.background1}
+                style={styles.background}
             >
-                <View style={styles.container}>
-		            <CrosswordGrid crosswordData={selectedCrosswordData} navigation={navigation} />
-	            </View>
-            </ScrollView>
+                <ScrollView
+                    style={{
+                        flex:1,
+                        padding: 15,
+                        margin: 20
+                    }}
+                >
+                    <View style={styles.container}>
+                        <CrosswordGrid crosswordData={selectedCrosswordData} navigation={navigation} />
+                    </View>
+                </ScrollView>
+            </ImageBackground>
+            
         </SafeAreaView>
 	
 	);
@@ -43,9 +50,14 @@ const Crossword = ({ route, navigation }) => {
 export default Crossword;
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
+    background: {
+        flex:1,
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
 });

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, TextInput, StyleSheet, Text, Button, Alert } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { SIZES, images, FONTS, COLORS } from '../../constants';
 
 let level = 0;
 
@@ -124,7 +125,7 @@ const CrosswordGrid = ({ crosswordData, navigation }) => {
 	};
 
 	const renderGrid = () => (
-		<View>
+		<View style={styles.gridContainer}>
 			{grid.map((row, rowIndex) => (
 				<View key={rowIndex} style={styles.row}>
 					{row.map((cell, colIndex) => (
@@ -202,6 +203,7 @@ const CrosswordGrid = ({ crosswordData, navigation }) => {
 
 	return (
 		<View style={styles.container}>
+            
 			{renderQuestions()}
 			{renderGrid()}
 			<View style={styles.buttonContainer}>
@@ -241,6 +243,9 @@ const styles = StyleSheet.create({
 		justifyContent: 'center',
 		alignItems: 'center',
 	},
+    gridContainer: {
+        margin: 10,
+    },
 	row: {
 		flexDirection: 'row',
 	},
@@ -253,45 +258,40 @@ const styles = StyleSheet.create({
 		color: 'transparent',
 	},
 	cell: {
-		borderWidth: 1,
+		borderWidth: 2,
 		margin: 1,
-		borderColor: '#6092C0',
-		backgroundColor: '#6092C0',
-		width: 30,
-		height: 30,
+		borderColor: COLORS.blue,
+		width: SIZES.width * 0.1,
+		height: SIZES.width * 0.1,
 		textAlign: 'center',
-		color: 'white',
+		color: COLORS.white,
 	},
 	smallDigit: {
+        ...FONTS.body4,
+        color: COLORS.darkgray,
 		position: 'absolute',
-		top: 2,
-		left: 2,
-		fontSize: 10,
-		fontWeight: 'bold',
+		left: 2,      
 	},
 	questionsContainer: {
 		justifyContent: 'space-between',
 		marginBottom: 10,
-		padding: 10,
 	},
 	questionText: {
-		fontSize: 16,
-		fontStyle: 'italic',
+		...FONTS.body3
 	},
 	headingContainer: {
 		marginTop: 10,
 		marginBottom: 5,
 	},
 	headingText: {
-		fontSize: 18,
-		fontWeight: 'bold',
-		color: '#228B22',
+		...FONTS.h3,
+		color: COLORS.blue,
 		textAlign: 'center',
 	},
 	buttonContainer: {
 		flexDirection: 'row',
 		justifyContent: 'space-around',
-		marginTop: 20,
+		margin: 5,
 		marginHorizontal: 10,
 	},
 	button: {
@@ -304,9 +304,8 @@ const styles = StyleSheet.create({
         marginBottom: 15,
     },
     scoreText: {
+        ...FONTS.h4,
         marginTop: 10,
-        fontSize: 16,
-        fontWeight: 'bold',
     },
 });
 
