@@ -1,0 +1,397 @@
+[
+    {
+        "question": "How long have they ________ there?",
+        "option1": "been waited",
+        "option2": "waiting",
+        "option3": "waited",
+        "option4": "been waiting",
+        "correctOption": 4,
+        "category": "grammar",
+        "difficulty": "easy"
+      },
+      {
+        "question": "I’m busy on Friday, so I ________ come.",
+        "option1": "not can",
+        "option2": "am not",
+        "option3": "don't",
+        "option4": "can't",
+        "correctOption": 4,
+        "category": "grammar",
+        "difficulty": "medium"
+      },
+      {
+        "question": "I wouldn’t say that to him if I ________ you.",
+        "option1": "would be",
+        "option2": "am",
+        "option3": "were",
+        "option4": "was",
+        "correctOption": 3,
+        "category": "grammar",
+        "difficulty": "hard"
+      },
+      {
+        "question": "I’d love to ________ in the 19th century",
+        "option1": "live",
+        "option2": "lived",
+        "option3": "have lived",
+        "option4": "have been lived",
+        "correctOption": 1,
+        "category": "grammar",
+        "difficulty": "medium"
+      },
+      {
+        "question": "He drives quite ________, but his brother drives really ________.",
+        "option1": "slow … fastly",
+        "option2": "slow … fast",
+        "option3": "slowly … fast",
+        "option4": "slowly … fastly",
+        "correctOption": 3,
+        "category": "grammar",
+        "difficulty": "hard"
+      },
+      {
+        "question": "That smells good! What ________.",
+        "option1": "are you cooking?",
+        "option2": "do you cook?",
+        "option3": "do you cooking?",
+        "option4": "are you cook?",
+        "correctOption": 1,
+        "category": "grammar",
+        "difficulty": "medium"
+      },
+      {
+        "question": "I’ll send it to you ________ I get the money.",
+        "option1": "as soon as",
+        "option2": "in case",
+        "option3": "unless",
+        "option4": "until",
+        "correctOption": 1,
+        "category": "grammar",
+        "difficulty": "easy"
+      },
+      {
+        "question": "I ________ to Germany last year",
+        "option1": "went",
+        "option2": "go",
+        "option3": "goed",
+        "option4": "gone",
+        "correctOption": 1,
+        "category": "grammar",
+        "difficulty": "hard"
+      },
+      {
+        "question": "I drink coffee ________.",
+        "option1": "twice a day",
+        "option2": "two times for a day",
+        "option3": "two times day",
+        "option4": "twice in day",
+        "correctOption": 1,
+        "category": "grammar",
+        "difficulty": "easy"
+      },
+
+      {
+        "question": "I don’t like my job very much. I’m going to _________ and look for another one.",
+        "option1": "retire",
+        "option2": "resign",
+        "option3": "fire",
+        "option4": "finish",
+        "correctOption": 2,
+        "category": "vocab",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What time do you go to _________ every day?",
+        "option1": "work",
+        "option2": "workplace",
+        "option3": "office",
+        "option4": "job",
+        "correctOption": 1,
+        "category": "vocab",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Do you want a _________ or a return ticket?",
+        "option1": "single",
+        "option2": "one-journey",
+        "option3": "outbound",
+        "option4": "lonely",
+        "correctOption": 1,
+        "category": "vocab",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Argh! This noise is giving me a _________.",
+        "option1": "headache",
+        "option2": "headhurt",
+        "option3": "headouch",
+        "option4": "headpain",
+        "correctOption": 1,
+        "category": "vocab",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Excuse me, I think you’ve _________ a mistake in our bill.",
+        "option1": "done",
+        "option2": "made",
+        "option3": "given",
+        "option4": "had",
+        "correctOption": 2,
+        "category": "vocab",
+        "difficulty": "hard"
+      },
+      {
+        "question": "I love all fruit, but _________ strawberries.",
+        "option1": "specially",
+        "option2": "especially",
+        "option3": "specifically",
+        "option4": "mostly",
+        "correctOption": 2,
+        "category": "vocab",
+        "difficulty": "medium"
+      },
+      {
+        "question": "The weather was great – it was really _________.",
+        "option1": "strong sun",
+        "option2": "sun",
+        "option3": "sunshine",
+        "option4": "sunny",
+        "correctOption": 4,
+        "category": "vocab",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Every time I wear something white, I _________ coffee or orange juice or something on it.",
+        "option1": "pour",
+        "option2": "let",
+        "option3": "drop",
+        "option4": "spill",
+        "correctOption": 4,
+        "category": "vocab",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Your father’s brother’s daughter is your _________.",
+        "option1": "cousin",
+        "option2": "niece",
+        "option3": "sister",
+        "option4": "cousina",
+        "correctOption": 1,
+        "category": "vocab",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Her hair isn’t completely straight – it’s slightly _________.",
+        "option1": "wavy",
+        "option2": "bent",
+        "option3": "waved",
+        "option4": "curl",
+        "correctOption": 1,
+        "category": "vocab",
+        "difficulty": "easy"
+      },
+
+      
+      {
+        "question": "Sarah felt extremely (happy) after receiving good news about her promotion.",
+        "option1": "Sad",
+        "option2": "Joyful",
+        "option3": "Angry",
+        "option4": "Grumpy",
+        "correctOption": 2,
+        "category": "synonyms",
+        "difficulty": "easy"
+      },
+      {
+        "question": "The firefighter's (brave) act saved the family from the burning building.",
+        "option1": "Fearful",
+        "option2": "Courageous",
+        "option3": "Timid",
+        "option4": "Afraid",
+        "correctOption": 2,
+        "category": "synonyms",
+        "difficulty": "easy"
+      },
+      {
+        "question": "The elephant is known for its (big) size and strength.",
+        "option1": "Tiny",
+        "option2": "Large",
+        "option3": "Small",
+        "option4": "Normal",
+        "correctOption": 2,
+        "category": "synonyms",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Albert Einstein was a highly (intelligent) scientist, known for his groundbreaking theories.",
+        "option1": "Smart",
+        "option2": "Foolish",
+        "option3": "Stupid",
+        "option4": "Wise",
+        "correctOption": 1,
+        "category": "synonyms",
+        "difficulty": "medium"
+      },
+      {
+        "question": "After running a marathon, John felt (tired) and collapsed onto his bed.",
+        "option1": "Rested",
+        "option2": "Bored",
+        "option3": "Fatigued",
+        "option4": "Energetic",
+        "correctOption": 3,
+        "category": "synonyms",
+        "difficulty": "hard"
+      },
+      {
+        "question": "After waiting for hours with no response, Jane grew (angry) and stormed out of the room",
+        "option1": "Happy",
+        "option2": "Upset",
+        "option3": "Furious",
+        "option4": "Content",
+        "correctOption": 3,
+        "category": "synonyms",
+        "difficulty": "medium"
+      },
+      {
+        "question": "The billionaire businessman lived in a (rich) mansion overlooking the city.",
+        "option1": "Poor",
+        "option2": "Wealthy",
+        "option3": "Affluent",
+        "option4": "Broke",
+        "correctOption": 2,
+        "category": "synonyms",
+        "difficulty": "hard"
+      },
+      {
+        "question": "The library was so (quiet) that you could hear a pin drop.",
+        "option1": "Noisy",
+        "option2": "Calm",
+        "option3": "Loud",
+        "option4": "Silent",
+        "correctOption": 4,
+        "category": "synonyms",
+        "difficulty": "medium"
+      },
+      {
+        "question": "The (friendly) dog wagged its tail and licked my hand when I approached.",
+        "option1": "Mean",
+        "option2": "Kind",
+        "option3": "Hostile",
+        "option4": "Unfriendly",
+        "correctOption": 2,
+        "category": "synonyms",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Emily was (excited) about her upcoming trip to Europe and couldn't wait to explore new places.",
+        "option1": "Bored",
+        "option2": "Apathetic",
+        "option3": "Uninterested",
+        "option4": "Enthusiastic",
+        "correctOption": 4,
+        "category": "synonyms",
+        "difficulty": "hard"
+      },
+
+
+      {
+        "question": "The ________ tells us what date it is today.",
+        "option1": "Calender",
+        "option2": "Calander",
+        "option3": "Calendar",
+        "option4": "Calander",
+        "correctOption": 3,
+        "category": "spelling",
+        "difficulty": "hard"
+      },
+      {
+        "question": "We work together, he is my ________.",
+        "option1": "Collaegue",
+        "option2": "Collegue",
+        "option3": "Coleague",
+        "option4": "Colleague",
+        "correctOption": 4,
+        "category": "spelling",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Is that really _________?",
+        "option1": "neccessary",
+        "option2": "necessary",
+        "option3": "necessery",
+        "option4": "neccesery",
+        "correctOption": 2,
+        "category": "spelling",
+        "difficulty": "easy"
+      },
+      {
+        "question": "She is a _________ lawyer.",
+        "option1": "successful",
+        "option2": "succesful",
+        "option3": "successfull",
+        "option4": "sucessful",
+        "correctOption": 1,
+        "category": "spelling",
+        "difficulty": "easy"
+      },
+      {
+        "question": "She danced gracefully to the _______ of the music.",
+        "option1": "rhythm",
+        "option2": "rhythem",
+        "option3": "rythem",
+        "option4": "rythm",
+        "correctOption": 1,
+        "category": "spelling",
+        "difficulty": "easy"
+      },
+      {
+        "question": "He felt _________ when he tripped in front of everyone.",
+        "option1": "Embarrassed",
+        "option2": "Embarased",
+        "option3": "Embarrased",
+        "option4": "Embarassed",
+        "correctOption": 1,
+        "category": "spelling",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Let's ________ the red socks from the blue ones",
+        "option1": "seperate",
+        "option2": "separate",
+        "option3": "separete",
+        "option4": "seperete",
+        "correctOption": 2,
+        "category": "spelling",
+        "difficulty": "hard"
+      },
+      {
+        "question": "I _______ in you.",
+        "option1": "Belive",
+        "option2": "Beleive",
+        "option3": "Believe",
+        "option4": "Beleve",
+        "correctOption": 3,
+        "category": "spelling",
+        "difficulty": "easy"
+      },
+      {
+        "question": "The _______ today is sunny and warm.",
+        "option1": "Wether",
+        "option2": "Waether",
+        "option3": "Weather",
+        "option4": "Whether",
+        "correctOption": 3,
+        "category": "spelling",
+        "difficulty": "easy"
+      },
+      {
+        "question": "She felt lonely in her friend's _________",
+        "option1": "Absense",
+        "option2": "Absence",
+        "option3": "Abcense",
+        "option4": "Abcence",
+        "correctOption": 2,
+        "category": "spelling",
+        "difficulty": "medium"
+      }
+    ]
