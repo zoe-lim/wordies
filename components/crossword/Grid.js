@@ -295,10 +295,10 @@ const styles = StyleSheet.create({
 		marginHorizontal: 10,
 	},
 	button: {
-		flex: 1, // Ensure equal width for both buttons
+		flex: 1, 
 	},
 	gap: {
-		width: 10, // Adjust the width as needed for the desired gap
+		width: 10, 
 	},
 	highscoreContainer: {
         marginBottom: 15,
