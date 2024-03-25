@@ -243,9 +243,6 @@ const styles = StyleSheet.create({
 		justifyContent: 'center',
 		alignItems: 'center',
 	},
-    gridContainer: {
-        margin: 10,
-    },
 	row: {
 		flexDirection: 'row',
 	},
