@@ -7,6 +7,7 @@ import Questions from "./Questions";
 import Crossword from './crossword/Crossword';
 import CrosswordTheme from "./crossword/CrosswordTheme";
 import Hangman from "./Hangman";
+import WordGuess from "./WordGuess";
 
 export {
     Login,
@@ -18,4 +19,5 @@ export {
     CrosswordTheme,
     Crossword,
     Hangman,
+    WordGuess
 }

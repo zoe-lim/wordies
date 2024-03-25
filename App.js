@@ -7,7 +7,7 @@ import * as SplashScreen from "expo-splash-screen";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { FONTS } from './constants/fonts';
 import { useCallback } from 'react';
-import { Login, Signup, Welcome, Home, Quiz, Questions, Crossword, CrosswordTheme, Hangman } from './screens';
+import { Login, Signup, Welcome, Home, Quiz, Questions, Crossword, CrosswordTheme, Hangman, WordGuess } from './screens';
 import { Provider } from 'react-redux';
 import { store } from './store/store';
 
@@ -43,6 +43,7 @@ export default function App() {
             <Stack.Screen name="CrosswordTheme" component={CrosswordTheme} />
             <Stack.Screen name="Crossword" component={Crossword} />
             <Stack.Screen name="Hangman" component={Hangman} />
+            <Stack.Screen name="WordGuess" component={WordGuess} />
             <Stack.Screen name='Quiz' component={Quiz}/>
             <Stack.Screen name='Questions' component={Questions}/>
           </Stack.Navigator>

@@ -27,6 +27,11 @@ const Home = ({  navigation  }) => {
                         style={styles.btn}
                         onPress={() => navigation.navigate("Hangman")}
                     />
+                    <Button
+                        title="Guess the Word"
+                        style={styles.btn}
+                        onPress={() => navigation.navigate("WordGuess")}
+                    />
                 </View>
             </ImageBackground>
         </View>
